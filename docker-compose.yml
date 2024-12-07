@@ -1,0 +1,13 @@
+version: "3.4"
+
+services:
+  postgres:
+    build: ./docker-compose/postgres/
+    container_name: diesel_multi_tenancy_postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: "docker"
+      POSTGRES_DB: "config"
+    restart: on-failure
+    network_mode: bridge
