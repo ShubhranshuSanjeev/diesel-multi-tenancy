@@ -484,9 +484,8 @@ dependencies = [
 
 [[package]]
 name = "diesel"
-version = "2.2.6"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ccf1bedf64cdb9643204a36dd15b19a6ce8e7aa7f7b105868e9f1fad5ffa7d12"
+version = "2.1.0"
+source = "git+https://github.com/priyansh-bhardwaj-juspay/diesel.git#c3a8e47d82a619b0585f1d0c57ab3ae6ea8abe2c"
 dependencies = [
  "bitflags",
  "byteorder",
@@ -516,9 +515,8 @@ dependencies = [
 
 [[package]]
 name = "diesel_derives"
-version = "2.2.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e7f2c3de51e2ba6bf2a648285696137aaf0f5f487bcbea93972fe8a364e131a4"
+version = "2.1.0"
+source = "git+https://github.com/priyansh-bhardwaj-juspay/diesel.git#c3a8e47d82a619b0585f1d0c57ab3ae6ea8abe2c"
 dependencies = [
  "diesel_table_macro_syntax",
  "dsl_auto_type",
@@ -529,9 +527,8 @@ dependencies = [
 
 [[package]]
 name = "diesel_table_macro_syntax"
-version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "209c735641a413bc68c4923a9d6ad4bcb3ca306b794edaa7eb0b3228a99ffb25"
+version = "0.1.0"
+source = "git+https://github.com/priyansh-bhardwaj-juspay/diesel.git#c3a8e47d82a619b0585f1d0c57ab3ae6ea8abe2c"
 dependencies = [
  "syn",
 ]
@@ -565,9 +562,8 @@ checksum = "77c90badedccf4105eca100756a0b1289e191f6fcbdadd3cee1d2f614f97da8f"
 
 [[package]]
 name = "dsl_auto_type"
-version = "0.1.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c5d9abe6314103864cc2d8901b7ae224e0ab1a103a0a416661b4097b0779b607"
+version = "0.1.0"
+source = "git+https://github.com/priyansh-bhardwaj-juspay/diesel.git#c3a8e47d82a619b0585f1d0c57ab3ae6ea8abe2c"
 dependencies = [
  "darling",
  "either",
@@ -720,9 +716,9 @@ checksum = "bf151400ff0baff5465007dd2f3e717f3fe502074ca563069ce3a6629d07b289"
 
 [[package]]
 name = "heck"
-version = "0.5.0"
+version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2304e00983f87ffb38b55b444b5e3b60a884b5d30c0fca7d82fe33449bbe55ea"
+checksum = "95505c38b4572b2d910cecb0281560f54b440a19336cbbcb27bf6ce6adc6f5a8"
 
 [[package]]
 name = "hermit-abi"
@@ -1163,9 +1159,9 @@ dependencies = [
 
 [[package]]
 name = "pq-sys"
-version = "0.6.3"
+version = "0.4.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f6cc05d7ea95200187117196eee9edd0644424911821aeb28a18ce60ea0b8793"
+checksum = "31c0052426df997c0cbd30789eb44ca097e3541717a7b8fa36b1c464ee7edebd"
 dependencies = [
  "vcpkg",
 ]

@@ -5,7 +5,15 @@ edition = "2021"
 
 [dependencies]
 actix-web = "4.4"
-diesel = { version = "2.1", features = [
+# diesel = { version = "2.1", features = [
+#     "postgres",
+#     "r2d2",
+#     "serde_json",
+#     "chrono",
+#     "uuid",
+#     "postgres_backend",
+# ] }
+diesel = { git = "https://github.com/priyansh-bhardwaj-juspay/diesel.git", features = [
     "postgres",
     "r2d2",
     "serde_json",
