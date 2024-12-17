@@ -13,7 +13,7 @@ actix-web = "4.4"
 #     "uuid",
 #     "postgres_backend",
 # ] }
-diesel = { git = "https://github.com/priyansh-bhardwaj-juspay/diesel.git", features = [
+diesel = { git = "https://github.com/juspay/diesel.git", branch = "dynamic-schema", features = [
     "postgres",
     "r2d2",
     "serde_json",
